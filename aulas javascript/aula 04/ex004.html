@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 4</title>
+    <style>/*Comentário em CSS*/
+
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }        
+
+    </style>
+</head>
+<body> <!--Comentário em HTML-->
+    
+    <script>
+        var nome = window.prompt('Qual o seu nome ? ')
+        document.write(`Olá ${nome}, Seu nome tem ${nome.length} letras. <br/>`) // (legth) Mostra números de letras
+        document.write(`Olá ${nome}, Seu nome em maiúsculas é ${nome.toUpperCase()}. <br/>`)// (toUpperCase) Mostra palavras com letra Maiúsculas 
+        document.write(`Olá ${nome}, Seu nome em minúsculas é ${nome.toLowerCase()}`)// (toLowerCase) Mostra palavras com letra Minúsculas
+        
+    </script>
+</body>
+</html>
